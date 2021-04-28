@@ -482,7 +482,7 @@ http {
 }
 END
 	mkdir -p /home/vps/public_html
-	echo "<pre>by phutthasit2530 | phutthasit2530</pre>" > /home/vps/public_html/index.html
+	echo "<pre>by Lundy Prech KHMERNET | LUNDY PRECH</pre>" > /home/vps/public_html/index.html
 	echo "<?phpinfo(); ?>" > /home/vps/public_html/info.php
 	args='$args'
 	uri='$uri'
@@ -604,9 +604,9 @@ echo ""
 echo -e "\033[0;32m { DOWNLOAD MENU SCRIPT }${NC} "
 echo ""
 	cd /usr/local/bin
-wget -q -O m "https://raw.githubusercontent.com/phutthasit2530/openvpnauto/master/Menu"
+wget -q -O m "https://raw.githubusercontent.com/ovpn-web/auto/main/menu-sm.sh"
 chmod +x /usr/local/bin/m
-	wget -O /usr/local/bin/Auto-Delete-Client "https://raw.githubusercontent.com/phutthasit2530/PURE/master/Auto-Delete-Client"
+	wget -O /usr/local/bin/Auto-Delete-Client "https://raw.githubusercontent.com/ovpn-web/auto/main/Auto-Delete-client"
 	chmod +x /usr/local/bin/Auto-Delete-Client 
 	apt-get -y install vnstat
 	cd /etc/openvpn/easy-rsa/
